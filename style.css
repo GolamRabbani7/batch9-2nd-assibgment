@@ -174,24 +174,25 @@ main {
 
 .destination-img {
     margin-left: -5px;
-    gap:px;
+    gap:2px;
 
 }
 
 .img-5-8 {
     display: flex;
-
+    row-gap:20px ;
 
 }
 
 .img-6-7-9 {
     display: flex;
+    row-gap:20px ;
 
 }
 
 .img-11-10 {
     display: flex;
-
+    row-gap:20px ;
 }
 
 .choose-container2 {
