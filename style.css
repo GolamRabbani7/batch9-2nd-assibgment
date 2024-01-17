@@ -60,9 +60,10 @@ nav>ul li {
     background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png), linear-gradient(rgba(0, 0, 0, 0.5), rgba(2, 2, 2, .1));
     background-blend-mode: overlay;
     background-size: cover;
+    background-position: center;
     width: 75%;
     /* padding: 0px auto; */
-    height: 500px;
+    min-height: 500px;
     border-radius: 10px;
     align-items: center;
 }
@@ -173,7 +174,7 @@ main {
 
 .destination-img {
     margin-left: -5px;
-    gap: px;
+    gap:px;
 
 }
 
@@ -195,7 +196,7 @@ main {
 
 .choose-container2 {
     display: flex;
-    gap: 10px;
+    gap: 25px;
     margin-top: 30px;
 }
 
