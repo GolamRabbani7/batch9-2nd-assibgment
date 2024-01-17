@@ -24,9 +24,11 @@ header {
     align-items: center;
     gap: 10px;
 }
- span{
+
+span {
     color: #FF5400;
- }
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -114,8 +116,6 @@ button {
 
 }
 
-
-
 /*  main style  */
 main {
     width: 75%;
@@ -156,90 +156,68 @@ main {
 
 .destination-title {
     color: #131318;
-    text-align: center; 
+    text-align: center;
     font-size: 40px;
     font-weight: 800;
-    
+
 }
 
 .destination-description {
     color: rgba(19, 19, 24, 0.70);
-    text-align: center; 
+    text-align: center;
     font-size: 16px;
     font-weight: 400;
     /* 162.5% */
 }
 
-.imgs img{
-    /* width: 50%; */
-    /* width: 573px; */
-/* height: 300px; */
-}
-.destination-img{
-   margin-left: -5px;
+
+.destination-img {
+    margin-left: -5px;
     gap: px;
-   
+
 }
-.img-5-8{
-    display:flex; 
-   
-    
+
+.img-5-8 {
+    display: flex;
+
+
 }
-.img-6-7-9{
-    display:flex ;
-    
-}
-.img-11-10{
+
+.img-6-7-9 {
     display: flex;
 
 }
 
-/* .destination-img{
-    display: grid;
-    grid-template-areas:
-    "img1 img2 img2" 
-    "img3 img4 img5"
-    "img7 img7 img7"
-    ;
+.img-11-10 {
+    display: flex;
+
 }
 
-.img1{
-    grid-area: img1;
+.choose-container2 {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
 }
-.img1{
-    grid-area: img2;
+
+.bottom-choose {
+    text-align: center;
 }
-.img1{
-    grid-area: img3;
+
+.right-choose-title,
+.left-choose-title,
+.bottom-choose-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
 }
-.img1{
-    grid-area: img4;
+
+.p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
 }
-.img1{
-    grid-area: img5;
-}
-.img1{
-    grid-area: img6;
-}
-.img1{
-    grid-area: img7;
-}  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* styles responsive part  */
 /* mobile screen  */
@@ -247,7 +225,8 @@ main {
 @media only screen and (max-width:600px) {
 
     .nav,
-    .populer-tour-section {
+    .populer-tour-section,
+    .bottom-choose-description {
         flex-direction: column;
     }
 
@@ -258,10 +237,20 @@ main {
     .banner-title {
         padding: 5px;
     }
+
     .destination-title {
         font-size: 30px;
     }
-    .img-5-8,.img-6-7-9,.img-6-7-9 {
+
+    .img-5-8,
+    .img-6-7-9,
+    .img-6-7-9 {
         flex-direction: column;
+    }
+    .choose-container2{
+        flex-direction: column;
+    }
+    .bottom-choose{
+        text-align: left;
     }
 }
